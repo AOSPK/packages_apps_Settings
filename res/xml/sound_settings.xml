@@ -90,7 +90,7 @@
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
     <!-- Link ringtone and notification volumes -->
-    <com.arrow.support.preferences.SecureSettingSwitchPreference
+    <com.kraken.support.preferences.SecureSettingSwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
@@ -226,6 +226,11 @@
         android:title="@string/emergency_tone_title"
         android:summary="%s"
         android:order="-10"/>
+
+    <!-- Screenshot sound -->
+    <SwitchPreference
+        android:key="screenshot_shutter_sound"
+        android:title="@string/screenshot_shutter_sound_title" />
 
     <Preference
         android:key="sound_work_settings"
