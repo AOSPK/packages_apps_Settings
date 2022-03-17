@@ -46,7 +46,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.UpdatableListPreferenceDialogFragment;
 
-import com.arrow.support.preferences.SystemSettingSwitchPreference;
+import com.kraken.support.preferences.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -63,7 +63,7 @@
             android:summary="@string/lockscreen_double_line_clock_summary"
             settings:controller="com.android.settings.display.LockscreenClockPreferenceController" />
 
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
+        <com.kraken.support.preferences.SystemSettingSwitchPreference
             android:key="enable_ripple_effect"
             android:title="@string/enable_fingerprint_ripple_effect_title"
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
@@ -75,7 +75,7 @@
         android:title="@string/ambient_display_category_triggers"
         android:order="1000">
 
-       <com.arrow.support.preferences.SystemSettingSwitchPreference
+       <com.kraken.support.preferences.SystemSettingSwitchPreference
             android:key="proximity_on_wake"
             android:title="@string/proximity_wake_title"
             android:summary="@string/proximity_wake_summary"
@@ -126,7 +126,7 @@
         android:title="@string/lockscreen_tweaks_category_title"
         android:order="1001">
 
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
+        <com.kraken.support.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_lockscreen"
             android:title="@string/double_tap_sleep_lockscreen_title"
             android:defaultValue="false" />

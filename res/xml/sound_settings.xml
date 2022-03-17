@@ -90,7 +90,7 @@
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
     <!-- Link ringtone and notification volumes -->
-    <com.arrow.support.preferences.SecureSettingSwitchPreference
+    <com.kraken.support.preferences.SecureSettingSwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
@@ -98,7 +98,7 @@
         settings:controller="com.android.settings.notification.LinkedVolumesPreferenceController"/>
 
     <!-- Volume panel to left -->
-    <com.arrow.support.preferences.SystemSettingSwitchPreference
+    <com.kraken.support.preferences.SystemSettingSwitchPreference
         android:key="volume_panel_on_left"
         android:title="@string/volume_panel_on_left_title"
         android:summary="@string/volume_panel_on_left_summary" />
@@ -156,17 +156,17 @@
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
 
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
+        <com.kraken.support.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_connect"
             android:title="@string/incall_vibrate_connect_title"
             android:defaultValue="false" />
 
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
+        <com.kraken.support.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_callwaiting"
             android:title="@string/incall_vibrate_call_wait_title"
             android:defaultValue="false" />
 
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
+        <com.kraken.support.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />
